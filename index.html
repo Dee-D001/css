@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dee website</title>
+
+    <!-- CSS Linked -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <!-- NAV BAR -->
+     <nav class="navbar">
+        <h1 class="logo">oyin</h1>
+        <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>About</li> 
+        <li><a href="#"></a>explore</li>
+        <li><a href="#"></a>Tours</li>
+        <li class="ctn"><a href="/contact.html"></a> Contact Me</li>
+
+ </ul>
+
+ <img src="/img/menu-btn.png" alt="" class="menu-btn">
+
+     </nav>
+
+    <header>
+        <div cl ass="header-content">
+            <h2>Explore with Dee</h2>
+        <div class="line">
+            </div> 
+            <h1>A wonderful gift</h1>
+            <a href="/contact.html" class="ctn"> Contact me
+            </a>
+
+        </div>
+    </header>
+
+    <section>
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+        <div class="col">
+        <img src="/img/img1.png" alt="">
+        <h4>Mountain Everest</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex magni porro ipsum! Dolorum iusto, dolorem optio, enim ipsam beatae voluptatum labore esse aliquam minus fugiat illo sunt placeat dignissimos nulla.</p>
+        <br>
+        <a href="#" class="ctn">Learn more</a>
+        </div>
+
+        <div class="col">
+        <img src="/img/img2.png" width="556px" height="373px" alt="">
+
+        <h4>Nysc Camp</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex magni porro ipsum! Dolorum iusto, dolorem optio, enim ipsam beatae voluptatum labore esse aliquam minus fugiat illo sunt placeat dignissimos nulla.</p>
+       <br>
+        <a href="#" class="ctn">Learn more</a>
+        </div>
+        </div>
+    </section>
+
+    <!-- end event -->
+
+    <section class="explore">
+        <div class="explore-content">
+    <h1>EXPLORE THE WORLD</h1>
+    <p>Touching the sky:Mount Everest,where the earth meets the heavens, standing tall at 8,848 meters,a symbol of resilience and adventure</p>
+    <a href="#" class="ctn">Learn More</a>
+    </div>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn")
+         const navlinks = document.q
+         uerySelector(".nav-links")
+
+        menuBtn.addEventListener("click", () =>{navlinks.classList.toggle("mobile-menu")
+        });
+    </script> 
+    
+</body>
+</html> 
