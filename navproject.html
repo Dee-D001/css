@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/navpro2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navlink">
+        <li><a href="/home.html" class="atn"><i class="fa-solid fa-house"></i>Home</a></li>
+        <li><a href="/services.html" class="btn">Services</a></li>
+        <li><a href="/about.html" class="ctn">About</a></li>
+        <li><a href="/contact.html" class="dtn">Contact me</a></li>
+      </ul>
+      <img src="/img/projectimage.jpg" alt="" class="menu-btn" />
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <h2>Fashion and Lifestyle with Dee_D Trendz</h2>
+        <h1>Any and Everything Trendy</h1>
+      </div>
+    </header>
+
+    <script>9
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
